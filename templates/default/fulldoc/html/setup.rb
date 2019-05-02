@@ -61,6 +61,7 @@ end
 #
 # @see layout#diskfile
 def serialize_file(file, title = nil) # rubocop:disable Lint/UnusedMethodArgument
+  binding.pry
   options.object = Registry.root
   options.file = file
   outfile = 'file.' + file.name + '.html'

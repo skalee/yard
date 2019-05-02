@@ -22,6 +22,8 @@ module YARD::CodeObjects
       @original_contents = contents
       @parsed = false
       @locale = nil
+      # require "pry"
+      # binding.pry
       ensure_parsed
     end
 
@@ -33,6 +35,9 @@ module YARD::CodeObjects
     end
 
     def title
+      # require "pry"
+      # binding.pry
+      log.debug "Asked for xob title: #{attributes[:title] || name}"
       attributes[:title] || name
     end
 

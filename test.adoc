@@ -1,0 +1,13 @@
+:arbitrary-attr: This is value for the "arbitrary-attr" attribute
+:yard-title: This is value for the "yard-title" attribute
+
+Lead paragraph
+
+[source,adoc]
+--------------------------------------------------------------------------------
+:yard-title: This is not an attribute definition for the current document.
+It's just a code sample.
+--------------------------------------------------------------------------------
+
+{arbitrary-attr}
+{yard-title}

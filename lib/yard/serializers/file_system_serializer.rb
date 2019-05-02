@@ -38,6 +38,7 @@ module YARD
       def serialize(object, data)
         path = File.join(basepath, serialized_path(object))
         log.debug "Serializing to #{path}"
+        binding.pry if path.to_s.start_with? "doc/file."
         File.open!(path, "wb") {|f| f.write data }
       end
 

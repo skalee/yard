@@ -353,6 +353,7 @@ module YARD
             false
           end
         end
+        binding.pry
         Templates::Engine.generate(objects, options)
       end
 
