@@ -1,0 +1,18 @@
+== In AsciiDoc...
+
+Ruby snippet:
+
+[source,ruby]
+----
+1+1
+yard = YARD
+----
+
+Ruby snippet with a title:
+
+[source,ruby]
+.This snippet has title
+----
+1+1
+yard = YARD
+----
