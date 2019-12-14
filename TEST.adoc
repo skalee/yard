@@ -1,4 +1,8 @@
+:imagesdir: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb
+
 == In AsciiDoc...
+
+=== Code listings
 
 Ruby snippet:
 
@@ -16,3 +20,32 @@ Ruby snippet with a title:
 1+1
 yard = YARD
 ----
+
+=== Lists
+
+Some list with a title:
+
+.This list has title
+- one
+- two
+- three
+
+=== Images
+
+Image:
+
+image::Libalt_View_of_Kraków.jpg/800px-Libalt_View_of_Kraków.jpg[]
+
+Image with caption:
+
+.View of Kraków (Gottfried Libalt)
+image::Libalt_View_of_Kraków.jpg/800px-Libalt_View_of_Kraków.jpg[]
+
+=== Tables
+
+.This table has caption
+|=======
+| Words  | One | Two | Three
+| Arabic | 1   | 2   | 3
+| Roman  | I   | II  | III
+|=======
